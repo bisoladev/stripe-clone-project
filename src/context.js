@@ -16,11 +16,11 @@ export const AppProvider = ({ children }) => {
   };
 
   const openSubmenu = () => {
-    setIsSidebarOpen(true);
+    setIsSubmenuOpen(true);
   };
 
   const closeSubmenu = () => {
-    setIsSidebarOpen(false);
+    setIsSubmenuOpen(false);
   };
 
   return (
