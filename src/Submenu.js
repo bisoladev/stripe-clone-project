@@ -17,7 +17,8 @@ const Submenu = () => {
       className={`${isSubmenuOpen ? "submenu show" : "submenu"}`}
       ref={container}
     >
-      <h4></h4>
+      <h4>{page}</h4>
+      <div className={`submenu-center col-2`}></div>
     </aside>
   );
 };
